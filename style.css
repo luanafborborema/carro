@@ -1,0 +1,55 @@
+#carro-container {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+#carro-imagem {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+button {
+    margin: 5px;
+    padding: 8px 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+}
+
+button:hover {
+    opacity: 0.8; /* Diminui a opacidade no hover */
+}
+
+.botao-verde {
+    background-color: #4CAF50;
+}
+
+.botao-vermelho {
+    background-color: #f44336;
+}
+
+.botao-azul {
+    background-color: #2196F3;
+}
+
+.botao-laranja {
+    background-color: #FF9800;
+}
+
+.botao-amarelo {
+    background-color: #ffeb3b;
+    color: black; /* Garante que o texto seja legível */
+}
+
+.botao-cinza {
+    background-color: #9e9e9e;
+}
+
+.botao-roxo {
+    background-color: #9c27b0;
+}

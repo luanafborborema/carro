@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carro em JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="carro-container">
+        <h1>Meu Carro</h1>
+        <img id="carro-imagem" src="imagens/carro.png" alt="Imagem do Carro">
+        <p><strong>Modelo:</strong> <span id="modelo"></span></p>
+        <p><strong>Cor:</strong> <span id="cor"></span></p>
+        <p><strong>Velocidade:</strong> <span id="velocidade">0</span> km/h</p>
+        <p><strong>Status:</strong> <span id="status">Desligado</span></p>
+
+        <button id="ligar-btn" class="botao-verde">Ligar</button>
+        <button id="desligar-btn" class="botao-vermelho">Desligar</button>
+        <button id="acelerar-btn" class="botao-azul">Acelerar</button>
+        <button id="freiar-btn" class="botao-laranja">Freiar</button>
+        <button id="diminuir-btn" class="botao-amarelo">Diminuir Velocidade</button>
+        <button id="buzinar-btn" class="botao-cinza">Buzinar</button>
+        <button id="trocar-cor-btn" class="botao-roxo">Trocar Cor</button>
+    </div>
+
+    <audio id="som-ligar" src="sons/carroligando.mp3" preload="auto"></audio>
+    <audio id="som-acelerar" src="sons/carroacelerando.mp3" preload="auto" loop></audio>
+    <audio id="som-frear" src="sons/freio.mp3" preload="auto"></audio>
+    <audio id="som-buzina" src="sons/buzina.mp3" preload="auto"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
