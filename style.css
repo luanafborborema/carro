@@ -1,28 +1,40 @@
-#carro-container {
-    width: 300px;
-    margin: 20px auto;
+#container-principal {
+    display: flex;
+    justify-content: space-around; /* Distribui os veículos uniformemente */
+    align-items: flex-start; /* Alinha os veículos ao topo */
     padding: 20px;
-    border: 1px solid #ccc;
-    text-align: center;
 }
 
-#carro-imagem {
-    width: 200px;
+.veiculo-container {
+    width: 300px; /* Largura para cada veículo */
+    padding: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin: 10px;
+}
+
+.veiculo-container h2 {
+    margin-bottom: 10px;
+}
+
+.veiculo-container img {
+    width: 150px;
     height: auto;
     margin-bottom: 10px;
 }
 
+/* Estilos dos botões (já definidos anteriormente) */
 button {
     margin: 5px;
     padding: 8px 15px;
     color: white;
     border: none;
     cursor: pointer;
-    border-radius: 5px; /* Adiciona bordas arredondadas */
+    border-radius: 5px;
 }
 
 button:hover {
-    opacity: 0.8; /* Diminui a opacidade no hover */
+    opacity: 0.8;
 }
 
 .botao-verde {
@@ -43,7 +55,7 @@ button:hover {
 
 .botao-amarelo {
     background-color: #ffeb3b;
-    color: black; /* Garante que o texto seja legível */
+    color: black;
 }
 
 .botao-cinza {
@@ -52,4 +64,8 @@ button:hover {
 
 .botao-roxo {
     background-color: #9c27b0;
+}
+
+.botao-especial {
+    background-color: #795548; /* Marrom */
 }
