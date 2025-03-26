@@ -1,71 +1,61 @@
-#container-principal {
-    display: flex;
-    justify-content: space-around; /* Distribui os veículos uniformemente */
-    align-items: flex-start; /* Alinha os veículos ao topo */
+#container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
     padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.veiculo-container {
-    width: 300px; /* Largura para cada veículo */
-    padding: 15px;
-    border: 1px solid #ccc;
+h1 {
     text-align: center;
-    margin: 10px;
+    color: #333;
 }
 
-.veiculo-container h2 {
-    margin-bottom: 10px;
+#selecione {
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+    color: #777;
 }
 
-.veiculo-container img {
-    width: 150px;
-    height: auto;
-    margin-bottom: 10px;
+#veiculo-selection {
+    margin-top: 20px;
+    text-align: center;
 }
 
-/* Estilos dos botões (já definidos anteriormente) */
-button {
+#veiculo-selection button {
+    padding: 10px 15px;
     margin: 5px;
-    padding: 8px 15px;
-    color: white;
     border: none;
+    background-color: #4CAF50;
+    color: white;
     cursor: pointer;
     border-radius: 5px;
 }
 
-button:hover {
-    opacity: 0.8;
+#veiculo-selection button:hover {
+    background-color: #367c39;
 }
 
-.botao-verde {
-    background-color: #4CAF50;
+.veiculo-container {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
 }
 
-.botao-vermelho {
-    background-color: #f44336;
+.veiculo-container button {
+    padding: 8px 12px;
+    margin: 5px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
 }
 
-.botao-azul {
-    background-color: #2196F3;
-}
-
-.botao-laranja {
-    background-color: #FF9800;
-}
-
-.botao-amarelo {
-    background-color: #ffeb3b;
-    color: black;
-}
-
-.botao-cinza {
-    background-color: #9e9e9e;
-}
-
-.botao-roxo {
-    background-color: #9c27b0;
-}
-
-.botao-especial {
-    background-color: #795548; /* Marrom */
+.veiculo-container button:hover {
+    background-color: #0056b3;
 }
